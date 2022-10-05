@@ -82,7 +82,7 @@ unknown, seems to be unimportant because it contains barely any data (VFXProfile
 
 ## cae.json
 
-This file controls all aspects of the campaign and some information on in game purchases, events, and sales.
+This file controls all aspects of the campaign and some information on in game events and sales.
 
 data on battles ([BattleData](BattleData.md))
 
@@ -144,14 +144,86 @@ characters in transmissions/holograms ([TransmissionCharacters](TransmissionChar
 
 transmissions/holograms ([Transmissions](Transmissions.md))
 
-everything after this is **NOT DONE AND WIP**
-
 ## olc.json
+
+Controls loot, drops, shards, crates, limited editon items, and more microtransation-esque stuff.
+
+pre-set costs represented by UIDs [Cost](Cost.md)
+
+Metadata about crate assets, and other information for their presentation. [Crate](Crate.md)
+
+crate drop chances? **fallbackUid** seems to be the most interesting part [CrateSupplyPool](CrateSupplyPool.md)
+
+criteria for crates and general metadata about them? [CrateSupply](CrateSupply.md)
+
+crate frequency based on HQ level? [CrateSupplyScale](CrateSupplyScale.md)
+
+information about items that fly out of crates? [CrateFlyoutItem](CrateFlyoutItem.md)
+
+data card "tiers". could be useful for adding some sort of currency [DataCardTiers](DataCardTiers.md)
+
+explains itself [LimitedEditionItemData](LimitedEditionItemData.md)
+
+some objective metadata [ObjSeries](ObjSeries.md)
+
+more objective metadata? **REVIEW ME** [ObjTable](ObjTable.md)
+
+list of loot entries for each faction and planet [PlanetLoot](PlanetLoot.md)
+
+loot entries [PlanetLootEntry](PlanetLootEntry.md)
+
+shard shop info? [ShardShopSeries](ShardShopSeries.md)
+
+the cost(a uid that points to a cost item) information and pool of shards? [ShardShopPool](ShardShopPool.md)
+
+stickers on the store icon that show up base on specific criteria (HQ level) [Stickers](Stickers.md)
 
 ## prk.json
 
 perk information.
 
+effects the can be caused by perks [PerkEffects](PerkEffects.md)
+
+the perks [Perks](Perks.md)
+
+something with slots and squad perks [SquadLevel](SquadLevel.md)
+
+everything after this is **NOT DONE AND WIP**
+
 ## trp.json
 
 troop information.
+
+assigns an asset to a specific uid [AssetData](AssetData.md)
+
+assign a music track and some metadata to a uid [AudioData](AudioData.md)
+
+**TODO** [BuffData](BuffData.md)
+
+**REVIEW ME** [CreatureData](CreatureData.md)
+
+[EquipmentData](EquipmentData.md)
+
+[EquipmentEffectData](EquipmentEffectData.md)
+
+[HeroAbilities](HeroAbilities.md)
+
+(LookUp)
+
+[ProjectileData](ProjectileData.md)
+
+[Shard](Shard.md)
+
+[SkinData](SkinData.md)
+
+[SkinOverrideData](SkinOverrideData.md)
+
+[SpecialAttackData](SpecialAttackData.md)
+
+[SummonDetails](SummonDetails.md)
+
+[TroopData](TroopData.md)
+
+[TurretData](TurretData.md)
+
+[UISupplemental](UISupplemental.md)
