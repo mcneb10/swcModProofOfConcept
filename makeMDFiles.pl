@@ -41,6 +41,8 @@ for(@ARGV) {
 		while(/\[(.*)\]\(([^\)]+)\)/g) {
 			my $caption = $1;
 			my $linkedFile = $2;
+			# Skip if file exists
+			next if -e $parentDir.$linkedFile;
 			# Yes, make the path to the file, make the file (using filename from matching group 2), write it, and close it
 			open my $OH, '>', $parentDir.$linkedFile;
 			# Make path if filename has slashes in it

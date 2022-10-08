@@ -20,11 +20,11 @@ Every json file has tables (called objects in the file itself) that contain some
 
 At the very bottom of each JSON file is a thing that describes the structure of each sheet and how many sheets exist.
 
-Also, take this with a grain of salt as I inferred what these sheets do base on their name and stucture.
+Also, take this with a grain of salt as I inferred what these sheets do base on their name and structure.
 
 ## base.json
 
-this file contains all sorts of stuff, and is absolutly massive.
+this file contains all sorts of stuff, and is absolutely massive.
 
 achievement data ([AchievementData](AchievementData.md))
 
@@ -50,7 +50,7 @@ faction icons ([FactionIcons](FactionIcons.md))
 
 general constants used by the game ([GameConstants](GameConstants.md))
 
-in app purchase data (InAppPurchases (no reason to document this))
+in-app purchase data (InAppPurchases (no reason to document this))
 
 unknown and empty (ListEntries)
 
@@ -110,7 +110,7 @@ reward data ([RewardData](RewardData.md))
 
 empty (RewardGroup)
 
-items on sale for in app purchases? (SaleItems)
+items on sale for in-app purchases? (SaleItems)
 
 sale info (Sales)
 
@@ -118,7 +118,7 @@ special promotions (SpecialPromo)
 
 has something to do with the triggering of notifications ([StoryActions](StoryActions.md))
 
-triggers for the campain **REVIEW ME** ([StoryTriggers](StoryTriggers.md))
+triggers for the campaign **REVIEW ME** ([StoryTriggers](StoryTriggers.md))
 
 tournament data? ([TournamentData](TournamentData.md))
 
@@ -132,9 +132,9 @@ tournament tier data? ([TournamentTierData](TournamentTierData.md))
 
 this file controls hologram stuff and possibly GUI stuff relating to events.
 
-hero holograms? im pretty sure that the command center is reffering to where heros are trained ([CommandCenterEntries](CommandCenterEntries.md))
+hero holograms? im pretty sure that the command center is referring to where heroes are trained ([CommandCenterEntries](CommandCenterEntries.md))
 
-unknown deveoper notes? ([DevNotes](DevNotes.md))
+unknown developer notes? ([DevNotes](DevNotes.md))
 
 explains itself ([LimitedTimeRewards](LimitedTimeRewards.md))
 
@@ -146,82 +146,88 @@ transmissions/holograms ([Transmissions](Transmissions.md))
 
 ## olc.json
 
-Controls loot, drops, shards, crates, limited editon items, and more microtransaction-esque stuff.
+Controls loot, drops, shards, crates, limited edition items, and more microtransaction-esque stuff.
 
-pre-set costs represented by UIDs [Cost](Cost.md)
+pre-set costs represented by UIDs ([Cost](Cost.md))
 
-Metadata about crate assets, and other information for their presentation. [Crate](Crate.md)
+Metadata about crate assets, and other information for their presentation. ([Crate](Crate.md))
 
-crate drop chances? **fallbackUid** seems to be the most interesting part [CrateSupplyPool](CrateSupplyPool.md)
+crate drop chances? **fallbackUid** seems to be the most interesting part ([CrateSupplyPool](CrateSupplyPool.md))
 
-criteria for crates and general metadata about them? [CrateSupply](CrateSupply.md)
+criteria for crates and general metadata about them? ([CrateSupply](CrateSupply.md))
 
-crate frequency based on HQ level? [CrateSupplyScale](CrateSupplyScale.md)
+crate frequency based on HQ level? ([CrateSupplyScale](CrateSupplyScale.md))
 
-information about items that fly out of crates? [CrateFlyoutItem](CrateFlyoutItem.md)
+information about items that fly out of crates? ([CrateFlyoutItem](CrateFlyoutItem.md))
 
-data card "tiers". could be useful for adding some sort of currency [DataCardTiers](DataCardTiers.md)
+data card "tiers". could be useful for adding some sort of currency ([DataCardTiers](DataCardTiers.md))
 
-explains itself [LimitedEditionItemData](LimitedEditionItemData.md)
+explains itself ([LimitedEditionItemData](LimitedEditionItemData.md))
 
-some objective metadata [ObjSeries](ObjSeries.md)
+some objective metadata ([ObjSeries](ObjSeries.md))
 
-more objective metadata? **REVIEW ME** [ObjTable](ObjTable.md)
+more objective metadata? **REVIEW ME** ([ObjTable](ObjTable.md))
 
-list of loot entries for each faction and planet [PlanetLoot](PlanetLoot.md)
+list of loot entries for each faction and planet ([PlanetLoot](PlanetLoot.md))
 
-loot entries [PlanetLootEntry](PlanetLootEntry.md)
+loot entries ([PlanetLootEntry](PlanetLootEntry.md))
 
-shard shop info? [ShardShopSeries](ShardShopSeries.md)
+shard shop info? ([ShardShopSeries](ShardShopSeries.md))
 
-the cost(a uid that points to a cost item) information and pool of shards? [ShardShopPool](ShardShopPool.md)
+the cost(uid that points to a cost item) information and pool of shards? ([ShardShopPool](ShardShopPool.md))
 
-stickers on the store icon that show up base on specific criteria (HQ level) [Stickers](Stickers.md)
+stickers on the store icon that show up base on specific criteria (HQ level) ([Stickers](Stickers.md))
 
 ## prk.json
 
 perk information.
 
-effects the can be caused by perks [PerkEffects](PerkEffects.md)
+effects that can be caused by perks ([PerkEffects](PerkEffects.md))
 
-the perks [Perks](Perks.md)
+the perks ([Perks](Perks.md))
 
-something with slots and squad perks [SquadLevel](SquadLevel.md)
+something with slots and squad perks ([SquadLevel](SquadLevel.md))
 
 ## trp.json
 
 troop information.
 
-assigns an asset to a specific uid [AssetData](AssetData.md)
+assigns an asset to a specific uid ([AssetData](AssetData.md))
 
-assign a music track and some metadata to a uid [AudioData](AudioData.md)
+assign a music track and some metadata to a uid ([AudioData](AudioData.md))
 
-buff information **REVIEW ME** [BuffData](BuffData.md)
+buff information **REVIEW ME** ([BuffData](BuffData.md))
 
-identifiers and holograms for creatures [CreatureData](CreatureData.md)
+identifiers and holograms for creatures ([CreatureData](CreatureData.md))
 
-data on items that give buffs? [EquipmentData](EquipmentData.md)
+data on items that give buffs? ([EquipmentData](EquipmentData.md))
 
-buffs applied by equipment [EquipmentEffectData](EquipmentEffectData.md)
+buffs applied by equipment ([EquipmentEffectData](EquipmentEffectData.md))
 
-explains itself [HeroAbilities](HeroAbilities.md)
+explains itself ([HeroAbilities](HeroAbilities.md))
 
 unknown and empty (LookUp)
 
-explains itself [ProjectileData](ProjectileData.md)
+explains itself ([ProjectileData](ProjectileData.md))
 
-to be honest I don't know what shards are [Shard](Shard.md)
+to be honest I don't know what shards are ([Shard](Shard.md))
 
-[SkinData](SkinData.md)
+some troop metadata? ([SkinData](SkinData.md))
 
-[SkinOverrideData](SkinOverrideData.md)
+no idea but is pointed to by a field in skin data ([SkinOverrideData](SkinOverrideData.md))
 
-[SpecialAttackData](SpecialAttackData.md)
+explains itself? ([SpecialAttackData](SpecialAttackData.md))
 
-[SummonDetails](SummonDetails.md)
+metadata on troop summoning? ([SummonDetails](SummonDetails.md))
 
-[TroopData](TroopData.md)
+explains itself **REVIEW ME** ([TroopData](TroopData.md))
 
-[TurretData](TurretData.md)
+explains itself **REVIEW ME** ([TurretData](TurretData.md))
 
-[UISupplemental](UISupplemental.md)
+UI information for troops with special abilities ([UISupplemental](UISupplemental.md))
+
+## strings_<locale>.json
+
+Has all the game's strings, localized.
+
+([LocalizedStrings](LocalizedStrings.md))
