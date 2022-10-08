@@ -11,7 +11,7 @@ use autodie; # I'm a bit sick of perl critic telling me to write "|| die"
 use File::Basename;
 use feature 'say';
 
-my $defaultText = '**WIP**';
+my $defaultText = "# {CAPTION}\n**WIP**\n";
 my $showHelp;
 
 # Get command line options and "deserialize" them into variables
@@ -38,13 +38,15 @@ for(@ARGV) {
 		<$FH>;
 	}) {
 		# Is there a link on this line?
-		while(/\[.*\]\(([^\)]+)\)/g) {
-			my $linkedFile = $1;
-			# Yes, make the path to the file, make the file (using filename from matching group 1), write it, and close it
+		while(/\[(.*)\]\(([^\)]+)\)/g) {
+			my $caption = $1;
+			my $linkedFile = $2;
+			# Yes, make the path to the file, make the file (using filename from matching group 2), write it, and close it
 			open my $OH, '>', $parentDir.$linkedFile;
 			# Make path if filename has slashes in it
 			make_path($linkedFile) if $linkedFile =~ /[\\\/]/;
-			print $OH $defaultText;
+			# Replace {CAPTION} with the link caption
+			print $OH $defaultText =~ s/\{CAPTION\}/$caption/gr;
 			close $OH;
 			say "Made file $linkedFile";
 			# After this, while loop tries to find another match (link)

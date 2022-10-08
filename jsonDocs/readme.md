@@ -188,8 +188,6 @@ the perks [Perks](Perks.md)
 
 something with slots and squad perks [SquadLevel](SquadLevel.md)
 
-everything after this is **NOT DONE AND WIP**
-
 ## trp.json
 
 troop information.
@@ -212,7 +210,7 @@ unknown and empty (LookUp)
 
 explains itself [ProjectileData](ProjectileData.md)
 
-[Shard](Shard.md)
+to be honest I don't know what shards are [Shard](Shard.md)
 
 [SkinData](SkinData.md)
 

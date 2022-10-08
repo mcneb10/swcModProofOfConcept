@@ -1,1 +1,2 @@
+# CurrencyType
 **WIP**
