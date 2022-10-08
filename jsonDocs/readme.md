@@ -140,13 +140,13 @@ explains itself ([LimitedTimeRewards](LimitedTimeRewards.md))
 
 GUI texture data? ([TextureData](TextureData.md))
 
-characters in transmissions/holograms ([TransmissionCharacters](TransmissionCharacters.md))
+characters in transmissions/holograms ([TransmissionCharacters](TransmissionCharacters.md)
 
 transmissions/holograms ([Transmissions](Transmissions.md))
 
 ## olc.json
 
-Controls loot, drops, shards, crates, limited editon items, and more microtransation-esque stuff.
+Controls loot, drops, shards, crates, limited editon items, and more microtransaction-esque stuff.
 
 pre-set costs represented by UIDs [Cost](Cost.md)
 
@@ -198,19 +198,19 @@ assigns an asset to a specific uid [AssetData](AssetData.md)
 
 assign a music track and some metadata to a uid [AudioData](AudioData.md)
 
-**TODO** [BuffData](BuffData.md)
+buff information **REVIEW ME** [BuffData](BuffData.md)
 
-**REVIEW ME** [CreatureData](CreatureData.md)
+identifiers and holograms for creatures [CreatureData](CreatureData.md)
 
-[EquipmentData](EquipmentData.md)
+data on items that give buffs? [EquipmentData](EquipmentData.md)
 
-[EquipmentEffectData](EquipmentEffectData.md)
+buffs applied by equipment [EquipmentEffectData](EquipmentEffectData.md)
 
-[HeroAbilities](HeroAbilities.md)
+explains itself [HeroAbilities](HeroAbilities.md)
 
-(LookUp)
+unknown and empty (LookUp)
 
-[ProjectileData](ProjectileData.md)
+explains itself [ProjectileData](ProjectileData.md)
 
 [Shard](Shard.md)
 
